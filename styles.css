@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #FFF;
+    flex-wrap: wrap;
+    background-image: url(./images/chat-icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 1210px 450px;
+    background-attachment: fixed;   
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #6F6AF7;
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+
+label.logo{
+    
+    color: #FFF;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 35px;  
+    line-height: 80px;
+    padding: 27px 153px 37px 44px;
+    font-weight: 800px;
+}
+
+nav ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size:30px ;
+   
+}
+
+nav ul li a{
+    color: #FFF;
+
+    
+}
+
+nav .search-box{
+    position: relative;
+}
+
+.search-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color:#FFF;
+    color: black ;
+    font-size: 15px;
+    padding: 12px;
+
+
+
+}
+
+.search-box button{
+    color:  #ADADAD;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #FFF;
+    
+}
+
+.hamburger-menu{
+    padding-left: 150px;
+    padding-right: 25px;
+}
+
+a:hover{
+    background: #423e9f;
+}
+
+
+
+
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 180px 0px 137px 129px;
+}
+
+.code-image{
+    display: flex ;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 5px   #6F7373;
+    
+}
+
+.texts{
+    flex: 1;
+    background-color: #E5D8FF;
+    border-left: 20px solid #FFF;
+    border-right: 20px solid #FFF ;
+    padding: 10px;
+    border-radius: 28px;
+    color: #6F7373;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.7%; /* 51.823px */
+   
+    
+}
+
+.social-icons ul li a img{
+
+    flex-direction: column;
+    align-self: center;
+    height: 50px;
+    width: 50px;   
+}
+.social-icons ul li a whatsapp{
+    border: 2px solid black;
+}
+
+.social-icons{
+    padding-top: 50px;
+}
+
+
+.second{
+    display: flex;
+    padding: 0px 0px 137px 129px;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+
+
+.b1,.b2,.b3,.b4{
+    width: 20%;
+    box-shadow: 0px 5px 5px 5px #6F7373;
+    border-radius: 10px;
+}
+
+.box-1{
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 1.16px;
+    border-radius: 11px;
+    background: #929DFF;
+    padding:10px
+    
+
+}
+
+.box-2{ color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 1.16px;
+    border-radius: 11px;
+    background: #734CF2;
+    padding: 10px;
+}
+.box-3{ 
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 1.16px;
+    border-radius: 11px;
+    background: #D288FF;
+    padding: 10px;
+}
+.box-4{ color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 1.16px;
+    border-radius: 11px;
+    background: #000000;
+    padding: 10px;
+}
+
+
+.third{
+    padding: 0px 85px 88px 101px;
+    
+    
+    
+}
+
+.whole{
+    display: flex; 
+    background-color: #483EFF;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.left{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.right{
+    padding: 20px;
+    flex: 1;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+}
+.button-1{
+    background-color: #BCE0F6;
+    border-radius: 10px;
+    border: 2px solid grey;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 62.545px */
+    letter-spacing: 1.4px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgb(68, 7, 167);
+    padding: 20px 20px;
+    width: 280px;
+    height: 80px;
+
+}
+
+.button-2{
+    background-color:#483EFF;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 178.7%; /* 62.545px */
+    letter-spacing: 1.4px;
+    text-align: center;
+    padding: 20px 20px;
+    width: 280px;
+    height: 80px;
+    
+
+}
+
+.button-3{
+    color: #FFF;
+    background-color:#483EFF;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 178.7%; /* 62.545px */
+    letter-spacing: 1.4px;
+    text-align: center;
+    padding: 20px 20px;
+    width: 280px;
+    height: 80px;
+
+    
+
+}
+
+.details{
+    color: #04285A;    
+    background-color: #FFF;
+    border-radius: 11px;
+    padding: 20px 50px 50px 25px;
+    height: 450px;
+    
+}
+
+.details h1{
+    color: #04285A;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.99px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+
+
+
+.details-2{
+   padding-left: 40px;
+   color: #143565;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 1.2px;
+}
+
+
+
+.next-button{
+    background-color: #000;
+    font-family: Roboto;
+    color: white;
+    height: 40px;
+    width: 70px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+
+.inner-box{
+    padding-top: 120px ;
+    padding-left: 800px;
+}
+
+
+
+
+
+
